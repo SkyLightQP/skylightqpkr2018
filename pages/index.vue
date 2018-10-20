@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <section>
         <section class="hero is-medium is-primary is-bold">
             <div class="hero-body">
                 <div class="container">
@@ -7,18 +7,31 @@
                         반가워요!
                     </h1>
                     <h2 class="subtitle">
-                        아무말아무말
+                        개발자 하늘빛
                     </h2>
                 </div>
             </div>
         </section>
 
-        <section class="container">
+        <div class="container">
             <br/>
+            <noscript>
+                <div class="notification is-danger">
+                    자바스크립트(JavaScript)가 비활성화 되어있습니다.
+                    비활성화 시 해당 홈페이지의 일부 기능이 작동하지 않을 수도 있습니다.
+                </div>
+                <br>
+            </noscript>
+
             <Alert color="success">이 홈페이지는 개발 중이에요!</Alert>
 
             <h1 class="title" style="font-weight: 500;">이런 것들을 다룰 줄 알아요!</h1>
             <div class="columns is-1">
+                <div class="column">
+                    <Dot text="Node.js">
+                        <img id="logo" src="~/assets/img/nodejs.png"/>
+                    </Dot>
+                </div>
                 <div class="column">
                     <Dot text="Vue.js">
                         <img id="logo" src="~/assets/img/Vue.png"/>
@@ -35,8 +48,8 @@
                     </Dot>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 </template>
 
 <script>

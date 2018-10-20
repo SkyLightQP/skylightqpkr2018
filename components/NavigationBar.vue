@@ -1,9 +1,9 @@
 <template>
     <nav class="navbar is-light" role="navigation">
         <div class="navbar-brand">
-            <a id="navbar-font" class="navbar-item" href="https://skylightqp.kr">
+            <nuxt-link id="navbar-font" class="navbar-item" to="/">
                 하늘빛
-            </a>
+            </nuxt-link>
 
             <a role="button" class="navbar-burger burger" :class="{ 'is-active': isActive }" aria-label="menu" aria-expanded="false" v-on:click="setActive()">
                 <span aria-hidden="true"></span>
@@ -14,9 +14,9 @@
 
         <div class="navbar-menu" :class="{ 'is-active': isActive }">
             <div class="navbar-start">
-                <a class="navbar-item is-active">
+                <nuxt-link class="navbar-item" to="/">
                     Home
-                </a>
+                </nuxt-link>
 
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">
@@ -35,8 +35,11 @@
             </div>
 
             <div class="navbar-end">
-                <a class="navbar-item">
-                    <i class="fab fa-github"></i>
+                <a class="navbar-item" href="https://blog.skylightqp.kr">
+                    <i class="fas fa-book"></i>
+                </a>
+                <a class="navbar-item" href="dd">
+                    <i class="fab fa-github fa-lg"></i>
                 </a>
             </div>
         </div>
