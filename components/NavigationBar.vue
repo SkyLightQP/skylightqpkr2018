@@ -36,10 +36,10 @@
 
             <div class="navbar-end">
                 <a class="navbar-item" href="https://blog.skylightqp.kr">
-                    <i class="fas fa-book"></i>
+                    <i class="fas fa-book"> Blog</i>
                 </a>
                 <a class="navbar-item" href="dd">
-                    <i class="fab fa-github fa-lg"></i>
+                    <i class="fas fa-code-branch"> Git</i>
                 </a>
             </div>
         </div>
