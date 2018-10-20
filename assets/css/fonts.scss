@@ -8,22 +8,15 @@
   url(~/assets/font/NotoSans-Regular.woff) format('woff'),
   url(~/assets/font/NotoSans-Regular.otf) format('truetype');
 }
+@import url('https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css');
 
-@font-face {
-  font-family: 'BM HANNA';
+#navbar-font {
+  font-family: 'BM JUA', '배달의민족 주아';
   font-weight: normal;
-  font-style: normal;
-  src: url('~/assets/font/BM-HANNA.eot');
-  src: url('~/assets/font/BM-HANNA.eot?#iefix') format('embedded-opentype'),
-  url('~/assets/font/BM-HANNA.woff') format('woff'),
-  url('~/assets/font/BM-HANNA.otf') format('truetype');
+  font-size: 105%;
 }
 
 * {
-  #navbar-font {
-    font-family: 'BM HANNA', '배달의민족 한나';
-    font-weight: 400;
-  }
 
   font-family: 'Noto Sans';
   font-weight: 400;
