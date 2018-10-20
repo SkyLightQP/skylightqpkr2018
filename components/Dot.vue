@@ -33,7 +33,7 @@
 
         100% {
             opacity: 0;
-            transform: perspective(600px) rotateY(180deg);
+            transform: perspective(600px) rotateY(360deg);
         }
     }
 

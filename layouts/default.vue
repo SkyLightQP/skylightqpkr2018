@@ -1,9 +1,9 @@
 <template>
-    <div>
+    <section>
         <Header/>
         <nuxt/>
         <Footer/>
-    </div>
+    </section>
 </template>
 
 <script>
