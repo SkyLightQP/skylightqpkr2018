@@ -48,6 +48,13 @@
                     </Dot>
                 </div>
             </div>
+
+            <h1 class="title " style="font-weight: 500;">연락처</h1>
+            <div class="columns">
+                <div class="column" style="text-align: right"><i class="fab fa-telegram"> Telegram</i> @아이디</div>
+                <div class="is-divider-vertical" data-content="OR"></div>
+                <div class="column"><i class="fab fa-discord"> Discord</i> 아이디</div>
+            </div>
         </div>
     </section>
 </template>

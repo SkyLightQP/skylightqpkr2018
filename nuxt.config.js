@@ -15,6 +15,7 @@ module.exports = {
 
     css: [
         { src: 'bulma', lang: 'sass' },
+        { src: 'bulma-divider', lang: 'sass' },
         { src: '~/assets/css/fonts.scss', lang: 'sass' },
         { src: '~/node_modules/@fortawesome/fontawesome-free/css/all.css' }
     ]
