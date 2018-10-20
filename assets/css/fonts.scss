@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans CJK KR Regular'), local('Noto Sans CJK KR-Regular'), local('NotoSansCJKKR Regular');
+  src: url(~/assets/font/NotoSans-Regular.eot);
+  src: url(~/assets/font/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+  url(~/assets/font/NotoSans-Regular.woff) format('woff'),
+  url(~/assets/font/NotoSans-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BM HANNA';
+  font-weight: normal;
+  font-style: normal;
+  src: url('~/assets/font/BM-HANNA.eot');
+  src: url('~/assets/font/BM-HANNA.eot?#iefix') format('embedded-opentype'),
+  url('~/assets/font/BM-HANNA.woff') format('woff'),
+  url('~/assets/font/BM-HANNA.otf') format('truetype');
+}
+
+* {
+  #navbar-font {
+    font-family: 'BM HANNA', '배달의민족 한나';
+    font-weight: 400;
+  }
+
+  font-family: 'Noto Sans';
+  font-weight: 400;
+
+  .footer {
+    font-weight: 300;
+    font-size: 95%;
+  }
+}
