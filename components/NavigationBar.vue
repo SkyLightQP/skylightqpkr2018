@@ -24,9 +24,9 @@
                     </a>
 
                     <div class="navbar-dropdown">
-                        <a class="navbar-item">
+                        <nuxt-link class="navbar-item" to="Program">
                             Program / Web
-                        </a>
+                        </nuxt-link>
                         <a class="navbar-item">
                             Minecraft
                         </a>
