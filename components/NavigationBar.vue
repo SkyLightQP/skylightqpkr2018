@@ -38,7 +38,7 @@
                 <a class="navbar-item" href="https://blog.skylightqp.kr">
                     <i class="fas fa-book"> Blog</i>
                 </a>
-                <a class="navbar-item" href="dd">
+                <a class="navbar-item" href="https://github.com/SkyLightQP">
                     <i class="fas fa-code-branch"> Git</i>
                 </a>
             </div>
