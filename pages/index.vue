@@ -25,16 +25,9 @@
 
             <Alert color="success">이 홈페이지는 개발 중이에요!</Alert>
 
-            <div class="columns is-offset-5">
-                <div class="column is-2">
-                    <hello/>
-                </div>
-                <div class="column is-11">
-                    <skills/>
-                    <br/>
-                    <contacts/>
-                </div>
-            </div>
+            <skills/>
+            <br/>
+            <contacts/>
         </div>
     </section>
 </template>
