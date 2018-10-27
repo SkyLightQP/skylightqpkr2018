@@ -36,12 +36,10 @@
     import Alert from "~/components/Alert";
     import Skills from "~/layouts/skills";
     import Contacts from "~/layouts/contacts";
-    import Hello from "~/layouts/hello";
 
     export default {
         name: "index",
         components: {
-            Hello,
             Contacts,
             Skills,
             Alert
