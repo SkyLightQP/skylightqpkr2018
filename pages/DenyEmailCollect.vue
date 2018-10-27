@@ -1,6 +1,5 @@
 <template>
     <section>
-        <header/>
         <br>
         <div class="container">
             <h1 class="title">이메일 무단 수집 거부 안내</h1>
@@ -11,7 +10,6 @@
                 </p>
             </div>
         </div>
-        <footer/>
     </section>
 </template>
 　
