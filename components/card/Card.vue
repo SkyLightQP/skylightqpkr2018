@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div id="card" class="card">
         <slot/>
     </div>
 </template>
@@ -11,7 +11,7 @@
 </script>
 
 <style>
-    #tag {
-        margin-right: 5px;
+    #card {
+        margin-bottom: 30px;
     }
 </style>
