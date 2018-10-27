@@ -28,3 +28,9 @@
         }
     }
 </script>
+
+<style>
+    #tag {
+        margin-right: 5px;
+    }
+</style>
