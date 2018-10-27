@@ -20,40 +20,20 @@
                     자바스크립트(JavaScript)가 비활성화 되어있습니다.
                     비활성화 시 해당 홈페이지의 일부 기능이 작동하지 않을 수도 있습니다.
                 </div>
-                <br>
+                <br/>
             </noscript>
 
             <Alert color="success">이 홈페이지는 개발 중이에요!</Alert>
 
-            <h1 class="title" style="font-weight: 500;">이런 것들을 다룰 줄 알아요!</h1>
-            <div class="columns is-1">
-                <div class="column">
-                    <Dot text="Node.js">
-                        <img id="logo" src="~/assets/img/nodejs.png"/>
-                    </Dot>
+            <div class="columns is-offset-5">
+                <div class="column is-2">
+                    <hello/>
                 </div>
-                <div class="column">
-                    <Dot text="Vue.js">
-                        <img id="logo" src="~/assets/img/Vue.png"/>
-                    </Dot>
+                <div class="column is-11">
+                    <skills/>
+                    <br/>
+                    <contacts/>
                 </div>
-                <div class="column">
-                    <Dot text="Kotlin">
-                        <img id="logo" src="~/assets/img/Kotlin.png"/>
-                    </Dot>
-                </div>
-                <div class="column">
-                    <Dot text="Java">
-                        <img id="logo" src="~/assets/img/java.png"/>
-                    </Dot>
-                </div>
-            </div>
-
-            <h1 class="title " style="font-weight: 500;">연락처</h1>
-            <div class="columns">
-                <div class="column" style="text-align: right"><i class="fab fa-telegram"> Telegram</i> @아이디</div>
-                <div class="is-divider-vertical" data-content="OR"></div>
-                <div class="column"><i class="fab fa-discord"> Discord</i> 아이디</div>
             </div>
         </div>
     </section>
@@ -61,12 +41,16 @@
 
 <script>
     import Alert from "~/components/Alert";
-    import Dot from "~/components/Dot";
+    import Skills from "~/layouts/skills";
+    import Contacts from "~/layouts/contacts";
+    import Hello from "~/layouts/hello";
 
     export default {
         name: "index",
         components: {
-            Dot,
+            Hello,
+            Contacts,
+            Skills,
             Alert
         }
     }
