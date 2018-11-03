@@ -4,7 +4,7 @@
             <div class="media-content">
                 <p class="title is-4">{{ title }}</p>
                 <div class="subtitle is-6">
-                    <span class="tag is-primary">{{ date }}</span>
+                    <span class="tag" :class="'is-' + color">{{ date }}</span>
                     <span id="tag" class="tag is-light" v-for="item in tags">
                             {{ item }}
                     </span>
@@ -24,7 +24,8 @@
         props: {
             title: String,
             tags: Array,
-            date: String
+            date: String,
+            color: String
         }
     }
 </script>

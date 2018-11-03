@@ -27,9 +27,9 @@
                         <nuxt-link class="navbar-item" to="Program">
                             Program / Web
                         </nuxt-link>
-                        <a class="navbar-item">
+                        <nuxt-link class="navbar-item" to="Minecraft">
                             Minecraft
-                        </a>
+                        </nuxt-link>
                     </div>
                 </div>
             </div>
