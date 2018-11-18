@@ -21,7 +21,7 @@
 </template>
 
 <script>
-    import items from "~/static/data_minecraft.json";
+    import items from "~/assets/config/data_minecraft.json";
 
     import Card from "~/components/card/Card";
     import CardImage from "~/components/card/CardImage";

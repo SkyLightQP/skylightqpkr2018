@@ -22,7 +22,6 @@
                     <a class="navbar-link">
                         Dev
                     </a>
-
                     <div class="navbar-dropdown">
                         <nuxt-link class="navbar-item" to="Program">
                             Program / Web

@@ -23,7 +23,7 @@
 </template>
 
 <script>
-    import items from "~/static/data.json";
+    import items from "~/assets/config/data.json";
 
     import Card from "~/components/card/Card";
     import CardImage from "~/components/card/CardImage";

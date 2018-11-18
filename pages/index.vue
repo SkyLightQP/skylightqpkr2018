@@ -24,7 +24,6 @@
             </noscript>
 
             <Alert color="success">이 홈페이지는 개발 중이에요!</Alert>
-
             <skills/>
             <br/>
             <contacts/>
