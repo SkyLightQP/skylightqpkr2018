@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:8
 MAINTAINER SkyLightQP <me@skylightqp.kr>
 
 EXPOSE 80
