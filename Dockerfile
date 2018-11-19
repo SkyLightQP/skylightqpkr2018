@@ -10,4 +10,4 @@ RUN npm install && npm run build
 
 VOLUME ["/assets/config"]
 
-CMD ["npm", "run", "start"]
+CMD ["bash", "run.sh"]
