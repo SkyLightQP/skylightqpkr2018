@@ -6,7 +6,7 @@ EXPOSE 80
 WORKDIR /
 COPY / /
 
-RUN npm install && npm run build
+RUN npm install
 
 VOLUME ["/assets/config"]
 
