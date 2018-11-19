@@ -23,7 +23,10 @@
                 <br/>
             </noscript>
 
-            <Alert color="success">이 홈페이지는 개발 중이에요!</Alert>
+            <div v-for="item in items">
+                <Alert :color="item.color">{{ item.text }}</Alert>
+            </div>
+
             <skills/>
             <br/>
             <contacts/>
@@ -36,12 +39,19 @@
     import Skills from "~/layouts/skills";
     import Contacts from "~/layouts/contacts";
 
+    import items from "~/assets/config/alert.json"
+
     export default {
         name: "index",
         components: {
             Contacts,
             Skills,
             Alert
+        },
+        data(){
+            return {
+                items: items
+            }
         }
     }
 </script>

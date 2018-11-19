@@ -2,8 +2,6 @@
     <section>
         <br/>
         <div class="container">
-            <Alert color="info">Masonry 스타일 특징 때문인지 날짜대로 배열해도 이상하게 보여서 일단 포기??</Alert>
-
             <masonry :cols="{default: 3, 700: 1}" :gutter="30">
                 <div v-for="item in items" :key="item.title">
                     <Card>
