@@ -17,8 +17,9 @@ docker run --name skylightqpkr -d -p 80:80 -v ./config:/aseets/config skylightqp
 설정 파일 작성 방법은 [이곳](https://github.com/SkyLightQP/skylightqpkr/tree/master/assets/config)을 참고해주세요.
 
 ### Docker 없이 서비스하기
+사전에 Build 과정이 필요합니다.
 ```
-npm run build
+npm install
 npm run start
 ```
 
