@@ -15,19 +15,19 @@
         <div class="navbar-menu" :class="{ 'is-active': isActive }">
             <div class="navbar-start">
                 <nuxt-link class="navbar-item" to="/">
-                    Home
+                    <i class="fas fa-home"></i>&nbsp;Home
                 </nuxt-link>
 
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">
-                        Dev
+                        <i class="fas fa-cog"></i>&nbsp;Dev
                     </a>
                     <div class="navbar-dropdown">
                         <nuxt-link class="navbar-item" to="Program">
-                            Program / Web
+                            <i class="fas fa-desktop"></i>&nbsp;Program / Web
                         </nuxt-link>
                         <nuxt-link class="navbar-item" to="Minecraft">
-                            Minecraft
+                            <i class="fas fa-gamepad"></i>&nbsp;Minecraft
                         </nuxt-link>
                     </div>
                 </div>
@@ -35,10 +35,10 @@
 
             <div class="navbar-end">
                 <a class="navbar-item" href="https://blog.skylightqp.kr">
-                    <i class="fas fa-book"> Blog</i>
+                    <i class="fas fa-book"></i>&nbsp;Blog
                 </a>
                 <a class="navbar-item" href="https://github.com/SkyLightQP">
-                    <i class="fas fa-code-branch"> Git</i>
+                    <i class="fas fa-code-branch"></i>&nbsp;Git
                 </a>
             </div>
         </div>

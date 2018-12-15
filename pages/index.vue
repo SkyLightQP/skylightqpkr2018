@@ -48,7 +48,7 @@
             Skills,
             Alert
         },
-        data(){
+        data() {
             return {
                 items: items
             }
