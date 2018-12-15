@@ -8,15 +8,20 @@ module.exports = {
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { property: 'og:url', content: 'http://skylightqp.kr'},
+            { property: 'og:url', content: 'https://skylightqp.kr'},
             { property: 'og:title', content: '하늘빛 | SkyLightQP'}
         ]
     },
 
     css: [
         { src: 'bulma', lang: 'sass' },
-        { src: 'bulma-divider', lang: 'sass' },
         { src: '~/assets/css/fonts.scss', lang: 'sass' },
         { src: '~/node_modules/@fortawesome/fontawesome-free/css/all.css' }
+    ],
+
+    modules: [
+        ['@nuxtjs/google-analytics', {
+            id: 'UA-69668170-5'
+        }]
     ]
 }
