@@ -4,8 +4,6 @@ const app = require('express')()
 const { Nuxt, Builder } = require('nuxt')
 const nuxtConfig = require('./nuxt.config')
 
-const port = 80
-
 if (process.env.NODE_ENV === 'production') {
     logger.level = 'ALL'
 } else if (process.env.NODE_ENV === 'development') {
@@ -20,4 +18,5 @@ if (nuxtConfig.dev) {
 }
 app.use(nuxt.render)
 
+const port = 80
 app.listen(port, () => logger.info(`Http server listening on ${port}`))
