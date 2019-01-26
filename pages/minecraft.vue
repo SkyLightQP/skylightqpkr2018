@@ -7,10 +7,10 @@
                     <Card>
                         <template v-if="item.image !== undefined">
                             <CardImage>
-                                <img :src="require(`~/assets/img/program/${item.image}`)"/>
+                                <img :src="require(`~/assets/img/minecraft/${item.image}`)"/>
                             </CardImage>
                         </template>
-                        <CardContent :title="item.title" :tags="item.tags" :date="item.date" color="primary">
+                        <CardContent :title="item.title" :tags="item.tags" :date="item.date" color="info">
                             {{ item.contents }}
                         </CardContent>
                     </Card>
@@ -21,7 +21,7 @@
 </template>
 
 <script>
-    import items from "~/assets/config/data.json";
+    import items from "~/assets/config/data_minecraft.json";
 
     import Card from "~/components/card/Card";
     import CardImage from "~/components/card/CardImage";
@@ -29,12 +29,12 @@
 
     import Vue from 'vue'
     import VueMasonry from 'vue-masonry-css'
-    import Alert from "../components/Alert";
+    import Alert from "~/components/Alert";
 
     Vue.use(VueMasonry);
 
     export default {
-        name: "Program",
+        name: "minecraft",
         components: {Alert, CardContent, CardImage, Card},
         data(){
             return {

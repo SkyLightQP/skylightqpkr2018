@@ -54,7 +54,7 @@
         border-radius: 50%;
         position: relative;
 
-        #logo {
+        .logo {
             position: absolute;
             max-width: 100%;
             max-height: 100%;
@@ -66,7 +66,7 @@
             left: 0;
             right: 0;
         }
-        &:hover #logo{
+        &:hover .logo{
             animation-name: logoRotate;
             animation-duration: 0.3s;
             animation-fill-mode: forwards;

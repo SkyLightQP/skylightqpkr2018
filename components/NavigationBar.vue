@@ -23,10 +23,10 @@
                         <i class="fas fa-cog"></i>&nbsp;Dev
                     </a>
                     <div class="navbar-dropdown">
-                        <nuxt-link class="navbar-item" to="Program">
+                        <nuxt-link class="navbar-item" to="/program">
                             <i class="fas fa-desktop"></i>&nbsp;Program / Web
                         </nuxt-link>
-                        <nuxt-link class="navbar-item" to="Minecraft">
+                        <nuxt-link class="navbar-item" to="/minecraft">
                             <i class="fas fa-gamepad"></i>&nbsp;Minecraft
                         </nuxt-link>
                     </div>

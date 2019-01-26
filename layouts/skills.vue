@@ -4,27 +4,27 @@
         <div class="columns">
             <div class="column">
                 <Dot text="Node.js">
-                    <img id="logo" src="~/assets/img/nodejs.png"/>
+                    <img class="logo" src="~/assets/img/nodejs.png"/>
                 </Dot>
             </div>
             <div class="column">
                 <Dot text="Vue.js">
-                    <img id="logo" src="~/assets/img/vuejs.png"/>
+                    <img class="logo" src="~/assets/img/vuejs.png"/>
                 </Dot>
             </div>
             <div class="column">
                 <Dot text="Kotlin">
-                    <img id="logo" src="~/assets/img/kotlin.png"/>
+                    <img class="logo" src="~/assets/img/kotlin.png"/>
                 </Dot>
             </div>
             <div class="column">
                 <Dot text="Java">
-                    <img id="logo" src="~/assets/img/java.png"/>
+                    <img class="logo" src="~/assets/img/java.png"/>
                 </Dot>
             </div>
             <div class="column">
                 <Dot text="HTML5">
-                    <img id="logo" src="~/assets/img/html5.png"/>
+                    <img class="logo" src="~/assets/img/html5.png"/>
                 </Dot>
             </div>
         </div>

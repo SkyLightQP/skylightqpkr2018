@@ -18,7 +18,7 @@
     import Footer from "~/layouts/footer";
 
     export default {
-        name: "DenyEmailCollect",
+        name: "email",
         components: {Footer, Header}
     }
 </script>
