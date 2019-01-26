@@ -18,6 +18,10 @@
                     <i class="fas fa-home"></i>&nbsp;Home
                 </nuxt-link>
 
+                <nuxt-link class="navbar-item" to="/info">
+                    <i class="fas fa-info-circle"></i>&nbsp;Info
+                </nuxt-link>
+
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">
                         <i class="fas fa-cog"></i>&nbsp;Dev

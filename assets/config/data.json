@@ -53,19 +53,31 @@
     "title": "AirQualityTool",
     "date": "2017-09",
     "tags": ["Node.js", "AJAX", "Arduino"],
-    "contents": "온도, 습도, 미세먼지 수치를 측정하여\nDB에 업로드하고 웹에서 그래프로 표시해주는 서비스.\n(사진은 옛날꺼 그래프 라이브러리 바꿈)",
-    "image": "airq.jpg"
+    "contents": "온도, 습도, 미세먼지 수치를 측정하여\nDB에 업로드하고 웹에서 그래프로 표시해주는 서비스."
   },
   {
     "title": "끄투닷컴",
     "date": "2017-03 ~ Now",
     "tags": ["Node.js", "Game"],
-    "contents": "글자, 단어를 이용한 웹게임 - 끄투"
+    "contents": "글자, 단어를 이용한 웹게임"
+  },
+  {
+    "title": "안녕! 2019! (Hello2019)",
+    "date": "2018-12",
+    "tags": ["Node.js", "Nuxt.js"],
+    "contents": "2019년 카운트다운 사이트",
+    "image": "hello2019.png"
   },
   {
     "title": "skylightqpkr",
     "date": "2018-10",
     "tags": ["Node.js", "HTML5", "Bulma.io"],
     "contents": "하늘빛의 소개 및 포트폴리오 홈페이지"
+  },
+  {
+    "title": "달콤한 봇 (SweetBot)",
+    "date": "2018-11",
+    "tags": ["Kotlin", "DiscordBot"],
+    "contents": "각종 기능들이 추가된 디스코드 봇"
   }
 ]

@@ -82,6 +82,4 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
 2. 경량화 폰트 및 웹폰트 제공
 ----------------------------------------
 
-https://github.com/singihae/Webfonts
 https://github.com/YJSoft/Webfonts
-https://github.com/UYEONG/NotoSans-subset
