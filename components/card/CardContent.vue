@@ -4,8 +4,8 @@
             <div class="media-content">
                 <p class="title is-4">{{ title }}</p>
                 <div class="subtitle is-6">
-                    <span class="tag" :class="'is-' + color">{{ date }}</span>
-                    <span id="tag" class="tag is-light" v-for="item in tags">
+                    <span class="tag tag-style" :class="'is-' + color">{{ date }}</span>
+                    <span class="tag is-light tag-style" v-for="item in tags">
                             {{ item }}
                     </span>
                 </div>
@@ -31,7 +31,8 @@
 </script>
 
 <style>
-    #tag {
+    .tag-style {
         margin-right: 5px;
+        margin-bottom: 5px;
     }
 </style>

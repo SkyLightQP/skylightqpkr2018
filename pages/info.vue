@@ -2,14 +2,12 @@
     <div class="container">
         <br>
         <div class="box content">
-            <h3>다뤄본 프로그래밍/마크업 언어</h3>
+            <h3>관심있는 분야와 프로그래밍(마크업) 언어를 소개합니다</h3>
             <p>
                 - Kotlin (on JVM) <br/>
-                주력 언어로 사용 중
             </p>
             <p>
                 - Java <br/>
-                Kotlin 이전에 사용했던 언어<br/>
             <p/>
             <p>
                 - Node.js <br/>
@@ -17,12 +15,14 @@
             </p>
             <p>
                 - TypeScript <br/>
-                최근에 배우고 있는 언어<br/>
             </p>
             <p>
                 - Vue.js (Nuxt.js) <br/>
                 Node.js와 함께 웹페이지를 제작할 때 쓰는 중<br/>
                 Vue와 함께 Nuxt를 알게되면서 SSR<sup>(Server Side Rendering)</sup>이라는 개념을 알게됨
+            </p>
+            <p>
+                - React <br/>
             </p>
             <p>
                 - HTML5 / CSS3 <br/>
@@ -39,12 +39,6 @@
                 - Python <br/>
                 간단한 스크립트, 머신러닝을 다룰 때 쓰는 중
             </p>
-
-            <h3>관심있는 분야/능력</h3>
-            <p>
-                - 머신러닝 <br/>
-                머신러닝, 인공지능
-            </p>
             <p>
                 - Linux & Server <br/>
                 리눅스 또는 서버운영
@@ -54,11 +48,12 @@
                 영상편집, 모션그래픽
             </p>
             <p>
-                - 드론 <br/>
+                - 드론<br/>
                 하지만 지역의 영향을 많이 받는다고...
             </p>
             <p>
                 - 3D프린팅 & 3D모델링 <br/>
+                Autodesk Fusion 360
             </p>
             <p>
                 - 아두이노<sup>(MicroController)</sup> & 라즈베리파이<br/>

@@ -27,6 +27,11 @@
                     <img class="logo" src="~/assets/img/html5.png"/>
                 </Dot>
             </div>
+            <div class="column">
+                <Dot text="React">
+                    <img class="logo" src="~/assets/img/react.png"/>
+                </Dot>
+            </div>
         </div>
     </section>
 </template>
