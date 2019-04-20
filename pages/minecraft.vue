@@ -29,13 +29,12 @@
 
     import Vue from 'vue'
     import VueMasonry from 'vue-masonry-css'
-    import Alert from "~/components/Alert";
 
     Vue.use(VueMasonry);
 
     export default {
         name: "minecraft",
-        components: {Alert, CardContent, CardImage, Card},
+        components: {CardContent, CardImage, Card},
         data(){
             return {
                 items: items

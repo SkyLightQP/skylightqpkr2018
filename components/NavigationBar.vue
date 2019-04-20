@@ -35,6 +35,10 @@
                         </nuxt-link>
                     </div>
                 </div>
+
+                <nuxt-link class="navbar-item" to="/ask">
+                    <i class="fas fa-question"></i>&nbsp;Ask
+                </nuxt-link>
             </div>
 
             <div class="navbar-end">
