@@ -1,5 +1,7 @@
 # skylightqpkr [![works badge](https://cdn.rawgit.com/nikku/works-on-my-machine/v0.2.0/badge.svg)](https://github.com/nikku/works-on-my-machine)
-> 하늘빛의 자기소개 및 포트폴리오 홈페이지
+> 구 하늘빛의 자기소개 및 포트폴리오 홈페이지 (~2018)
+
+- 현재 홈페이지는 해당 코드로 돌아가지 않습니다.
 
 ## Build
 ```
